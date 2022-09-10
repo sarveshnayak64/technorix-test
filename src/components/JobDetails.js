@@ -45,7 +45,6 @@ const JobDetails = () => {
 		const fetchJobDetails = async () => {
       const res = await fetch('https://teknorix.jobsoid.com/api/v1/jobs/'+jobId);
       const data = await res.json()
-      console.log(data)
       return data
     }
 
