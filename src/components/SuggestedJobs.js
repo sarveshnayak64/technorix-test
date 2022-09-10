@@ -15,7 +15,6 @@ const SuggestedJobs = ({departmentId}) => {
 		const getJobs = async () => {
 			const jobsFromServer = await fetchJobs()
 			setSuggestedJobs(jobsFromServer);
-			console.log(jobsFromServer)
 		}
 
 		getJobs()
