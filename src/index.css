@@ -1,0 +1,116 @@
+.search-box{
+  background-color: #ededed;
+  margin:  20px 0px;
+  padding: 20px;
+  padding-bottom: -100px;
+}
+
+.search-box-clear-all{
+    float: right;
+    cursor: pointer;
+}
+.search-input{
+  margin: 20px 0px;
+}
+.container{
+  margin: 20px 0px;
+}
+
+.chip{
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100px; 
+  padding:  5px 12px;
+  margin:  0px 5px; 
+}
+.chip-close{
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.list-detail{
+  margin-right: 20px;
+}
+
+.job-title {
+  position: relative;
+  line-height: 1.2em;
+  padding: 20px 0px;
+}
+.job-title:before {
+  position: absolute;
+  left: 15px;
+  top: 2.0em;
+  height: 0px;
+  width: 70px;
+  content: '';
+  border-top: 5px solid lightskyblue;
+}
+
+.btn-job-detail-apply{
+  margin: 40px 0px 20px 0px;
+  width: 150px
+}
+
+.job-opening-title {
+  position: relative;
+  line-height: 1.2em;
+  padding: 10px 0px;
+}
+.job-opening-title:before {
+  position: absolute;
+  left: 0px;
+  top: 2.0em;
+  height: 0px;
+  width: 70px;
+  content: '';
+  border-top: 5px solid skyblue;
+}
+
+
+.job-detail-content-box{
+  margin:  20px 0px;
+  padding-bottom: -100px;
+}
+
+
+.job-opening-list-item{
+  background-color: #ededed !important;
+  padding: 15px 0 !important;
+
+}
+
+.job-opening-list-title{
+  color:  #000;
+  font-size: 18px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.job-opening-list-detail{
+  margin-right: 20px;
+  font-size: 14px;
+  color: grey;
+}
+
+.share-job-box{
+  margin:  20px 0px;
+  padding: 20px;
+  padding-bottom: -100px;
+}
+
+.share-job-social-icon{
+  margin-right:20px;
+  padding:7px 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-job-view{
+  margin-left: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+}
